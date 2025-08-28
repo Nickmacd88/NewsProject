@@ -8,7 +8,7 @@ from model import comparator, summarizer
 from data import scraper
 from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
-
+"""Testing new push"""
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # ✅ Frontend origin
