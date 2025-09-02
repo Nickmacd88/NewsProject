@@ -27,7 +27,7 @@ pyls-spyder==0.4.0
 PyQt5==5.15.10
 PyQtWebEngine==5.15.6
 python-multipart==0.0.20
-pywin32==308
+pywin32
 rich-toolkit==0.15.0
 rignore==0.6.4
 safetensors==0.6.2
