@@ -19,7 +19,7 @@ app.add_middleware(
 target_dir = ('../data/')
 compare_agent = comparator.Article_Comparator()
 
-
+"""temp"""
 
 class Compare_Request(BaseModel):
     text: str
