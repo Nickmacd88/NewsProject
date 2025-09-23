@@ -4,7 +4,7 @@ atomicwrites==1.4.0
 dnspython==2.7.0
 email_validator==2.2.0
 Farama-Notifications==0.0.4
-fastapi==0.116.1
+fastapi[standard]==0.116.1
 fastapi-cli==0.0.8
 fastapi-cloud-cli==0.1.5
 feedfinder2==0.0.4
