@@ -9,7 +9,6 @@ fastapi-cli==0.0.8
 fastapi-cloud-cli==0.1.5
 feedfinder2==0.0.4
 feedparser==6.0.11
-gymnasium==1.2.0
 hf-xet==1.1.8
 httptools==0.6.4
 huggingface-hub==0.34.4
@@ -20,7 +19,6 @@ lxml_html_clean==0.4.2
 matplotlib==3.10.0
 mkl-service==2.4.1
 newspaper3k==0.2.8
-opencv-python==4.12.0.88
 pyasn1-modules==0.2.8
 pygame==2.6.1
 pyls-spyder==0.4.0

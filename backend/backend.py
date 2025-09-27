@@ -5,7 +5,6 @@ of the news articles with the given news article and return URL's for the top 5 
 from fastapi import FastAPI,HTTPException
 from pydantic import BaseModel
 from model import comparator, summarizer
-from data import scraper
 from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 """Testing new push"""
