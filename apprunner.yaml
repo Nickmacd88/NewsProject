@@ -12,6 +12,3 @@ run:
     - pipenv install
     - echo Done with pre-run!!!
   command: pipenv run fastapi run backend/backend.py --port 8080
-
-  network:
-    port: 8080
