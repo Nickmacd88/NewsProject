@@ -5,7 +5,7 @@ import torch
 
 class Base_Article_Comparator:
     def __init__(self):
-        self.model = SentenceTransformer("./model_data")
+        self.model = SentenceTransformer("model_data")
 
     """Compares two articles and returns a similarity score"""
     def compare(self, article):
