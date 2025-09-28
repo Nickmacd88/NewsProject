@@ -10,9 +10,5 @@ run:
     - echo Beginning pre-run commands...
     - pip3 install pipenv
     - pipenv install
-    - python3 copy-global-files.py
     - echo Done with pre-run!!!
   command: pipenv run fastapi run backend/backend.py --port 8080
-
-  network:
-    port: 8080
