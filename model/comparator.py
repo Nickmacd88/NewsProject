@@ -2,10 +2,11 @@ from sentence_transformers import SentenceTransformer, util
 import sqlite3
 import numpy as np
 import torch
+import os
 
 class Base_Article_Comparator:
     def __init__(self):
-        self.model = SentenceTransformer("./model_data")
+        self.model = SentenceTransformer(os.path.dirname(__file__)) + "/model_data")
 
     """Compares two articles and returns a similarity score"""
     def compare(self, article):
