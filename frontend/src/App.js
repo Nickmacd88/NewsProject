@@ -8,8 +8,8 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const SUMMARIZE_URL = "http://127.0.0.1:8000/summarize";
-  const SIMILAR_URL = "http://127.0.0.1:8000/compare"; // 🔁 CHANGE THIS
+  const SUMMARIZE_URL = "https://ipw7srvzsm.us-east-2.awsapprunner.com/summarize";
+  const SIMILAR_URL = "https://ipw7srvzsm.us-east-2.awsapprunner.com/compare"; // 🔁 CHANGE THIS
 
   const handleSubmit = async (e) => {
     e.preventDefault();
