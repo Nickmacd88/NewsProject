@@ -16,12 +16,13 @@ class Base_Article_Comparator:
         pass
 
     def _connect(self):
-        self.con = sqlite3.connect('../data/news.db')
+        self.con = sqlite3.connect(os.getcwd() + '/data/news.db')
 
 
 class Article_Comparator(Base_Article_Comparator):
     def __init__(self):
         super().__init__()
+        print("Comparator working directory is: " + os.getcwd() + "/data/news.db")
 
     def compare(self, article1, article2):
         embedding1 = self.model.encode(article1, normalize_embeddings=True)

@@ -6,6 +6,8 @@ from fastapi import FastAPI,HTTPException
 from pydantic import BaseModel
 from model import comparator, summarizer
 from fastapi.middleware.cors import CORSMiddleware
+import os
+
 
 print("Starting FastAPI")
 app = FastAPI()
@@ -25,6 +27,9 @@ print("Target dir created, creating compare_agent..")
 
 compare_agent = comparator.Article_Comparator()
 print("Backend startup complete!!")
+
+print("Current working directory is: " + os.getcwd())
+
 """temp"""
 
 class Compare_Request(BaseModel):
